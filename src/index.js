@@ -1,14 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Header from "./components/header"
+import Header from "./components/header";
+import "./styles/styles.css";
 const App = () => {
-    return (
-        <div>
-            <Header/>
-            <h1>Hello App</h1>
-        </div>
-    )
-}
+  return (
+    <div>
+      <Header />
+    </div>
+  );
+};
 
-const root = ReactDOM.createRoot(document.getElementById('root'))
-root.render(<App />)
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<App />);

@@ -1,9 +1,15 @@
-import '../styles/styles.css'
+import "../styles/styles.css";
+
+const inputChange = (event) => {
+  console.log("I was changed");
+  console.log(event.target.value);
+};
 const Header = () => {
-    return (
-        <div>
-            <h1>This Is Header { 2022 }</h1>
-        </div>
-    )
-}
+  return (
+    <header>
+      <h1 onClick={() => console.log("This is logo")}>Logo</h1>
+      <input onChange={inputChange} />
+    </header>
+  );
+};
 export default Header;
