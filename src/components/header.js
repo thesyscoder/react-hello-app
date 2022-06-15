@@ -1,3 +1,4 @@
+import '../styles/styles.css'
 const Header = () => {
     return (
         <div>
