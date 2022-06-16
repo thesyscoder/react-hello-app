@@ -4,16 +4,23 @@ import Header from "./components/header";
 import "./styles/styles.css";
 import JSON from "./DB.json";
 import NewsList from "./components/news_list";
+import Footer from "./components/footer";
 
 class App extends Component {
   state = {
     news: JSON,
+    footerText: "I am happy to build",
   };
   render() {
     return (
       <div>
         <Header />
-        <NewsList news={this.state.news} />
+        <NewsList news={this.state.news}>
+          <br />
+          <h4>I am child</h4>
+        </NewsList>
+
+        <Footer footerText={this.state.footerText} />
       </div>
     );
   }
