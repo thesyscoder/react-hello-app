@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "title": "New Python Packges are updates",
+        "feed": "Recently we got new updates on python packges that will help in rapid web development"
+    },
+    {
+        "id": 2,
+        "title": "New Apple Air",
+        "feed": "Apple launches Macbook Air with new superiour M2 processor."
+    }
+]

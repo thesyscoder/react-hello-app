@@ -27,7 +27,7 @@ class Header extends Component {
               console.log("Logo clicked");
             }}
           >
-            Logo
+            #Hash News
           </div>
           <input onChange={this.inputChange}></input>
           <div>{this.state.title}</div>
